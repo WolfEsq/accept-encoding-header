@@ -17,8 +17,6 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 ## Description
 Many WordPress performance plugins are bloated and include features that you don't need. This plugin does just one thing. It adds a "Vary: Accept-Encoding Header" to boost website performance.
 
-When browsers make a request, they include HTTP headers for the server to decide what to send back. The Vary header describes what information identifies a request. Caches should only be used if the request matches the Vary information in the cache.
-
 This plugin adds a rewrite rule to your WordPress directory's `.htaccess` Apache file.
 
 ```
@@ -43,7 +41,7 @@ Alternatively, you can download the plugin using the download button on this pag
 ### Why might this plugin not work for me?
 There are a couple of reasons why this may not work for you.
 If your server is running NGINX, you will probably need to update the NGINX  configuration. This can't be done from within WordPress itself. The primary NGINX configuration file is `/etc/nginx/nginx.conf`. Add this code to the file: `gzip_vary on`.
-Also, this will only work for requests that are on your server. If you have third party requests, there is nothing you can do because you don’t have access to their web servers.
+Also, this will only work for requests that are on your server. If you have third party requests, then you won't have access to the server.
 
 ## Screenshots
 
