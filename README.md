@@ -5,7 +5,7 @@
 
 #### [Download from the WordPress Plugin Repository](https://wordpress.org/plugins/specify-a-vary-accept-encoding-header/)
 
-Contributors: WolfEsq
+Contributors: WolfEsq  
 Tags: performance,security,speed,vary,accept,encoding,header  
 Requires at least: 3.0.1  
 Tested up to: 4.9.8  
