@@ -7,13 +7,13 @@
 
 Contributors: WolfEsq  
 Tags: performance,security,speed,vary,accept,encoding,header  
-Tested up to: 5.2.2
-
+Tested up to: 5.2.2  
 Requires at least: 3.0.1  
 Requires PHP: 5.2  
 Stable tag: 1.0.0  
 License: GPL v2+  
 License URI: https://www.gnu.org/licenses/gpl-2.0.html  
+
 
 ## Description
 Many WordPress performance plugins are bloated and include features that you don't need. This plugin does just one thing. It adds a "Vary: Accept-Encoding Header" to boost website performance.
