@@ -8,7 +8,7 @@
 Contributors: WolfEsq  
 Tags: performance,security,speed,vary,accept,encoding,header  
 Requires at least: 3.0.1  
-Tested up to: 4.9.8  
+Tested up to: 5.2.2
 Requires PHP: 5.2  
 Stable tag: 1.0.0  
 License: GPL v2+  
